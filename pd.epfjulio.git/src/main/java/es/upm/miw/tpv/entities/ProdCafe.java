@@ -1,4 +1,6 @@
-package es.upm.miw.tpv.factoryMethod;
+package es.upm.miw.tpv.entities;
+
+import es.upm.miw.tpv.factoryMethod.Product;
 
 public class ProdCafe extends Product {
     @Override

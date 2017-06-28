@@ -1,4 +1,6 @@
-package es.upm.miw.tpv.factoryMethod;
+package es.upm.miw.pd.abstractFactoryFamilias;
+
+import es.upm.miw.tpv.factoryMethod.Familia;
 
 public class FamBebidas extends Familia {
     @Override
