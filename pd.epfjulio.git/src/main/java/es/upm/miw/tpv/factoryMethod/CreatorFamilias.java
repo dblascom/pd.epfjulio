@@ -8,6 +8,12 @@ public class CreatorFamilias extends Creator {
 
     @Override
     public String toString() {
-        return "Creador de Producto1";
+        return "Creador de Familias";
     }
+
+	@Override
+	public Product crearProducto() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

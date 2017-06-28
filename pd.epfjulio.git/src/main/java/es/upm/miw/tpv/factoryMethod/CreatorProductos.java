@@ -10,4 +10,10 @@ public class CreatorProductos extends Creator {
     public String toString() {
         return "Creador de Producto2";
     }
+
+	@Override
+	public Familia crearFamilia() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

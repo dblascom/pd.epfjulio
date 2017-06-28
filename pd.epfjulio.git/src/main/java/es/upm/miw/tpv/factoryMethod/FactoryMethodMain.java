@@ -14,6 +14,11 @@ public class FactoryMethodMain {
     public void crearProducto() {
         IO.getIO().println("Creado producto: " + this.creador.crearProducto().toString());
     }
+        
+    
+    public void crearFamilia() {
+        IO.getIO().println("Creada familia: " + this.creador.crearFamilia().toString());
+    }
 
     public static void main(String[] args) {
         IO.getIO().addView(new FactoryMethodMain());
